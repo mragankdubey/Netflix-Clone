@@ -34,40 +34,48 @@ header{
     z-index:100;
 }
 
+/* Bigger Netflix Logo */
 .logo img{
-    width:250px;
+    width:160px;      /* Mobile */
 }
 
+/* Right Side */
 .right_lang_sign-in{
     display:flex;
-    gap:15px;
+    align-items:center;
+    gap:10px;
 }
 
-select{
+/* Smaller Language Box */
+.right_lang_sign-in select{
     background:transparent;
     color:white;
-    padding:8px 15px;
     border:1px solid white;
     border-radius:5px;
+    padding:5px 10px;
+    font-size:14px;
 }
 
-button{
+/* Smaller Sign In Button */
+.right_lang_sign-in button{
     background:#e50914;
     color:white;
     border:none;
     border-radius:5px;
+    padding:6px 14px;
+    font-size:14px;
     cursor:pointer;
     transition:.3s;
 }
 
-button:hover{
+.right_lang_sign-in button:hover{
     background:#c11119;
 }
 
 /* Header Button */
 
 .right_lang_sign-in button{
-    padding:8px 18px;
+    padding:6px 10px;
 }
 
 /* ==========================
@@ -185,7 +193,7 @@ button:hover{
 
 .movie-card{
 
-    min-width:280px;
+    width:280px;
 
     height:400px;
 
