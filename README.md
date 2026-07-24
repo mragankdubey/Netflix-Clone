@@ -28,8 +28,6 @@ Netflix-Clone/
 💻 How to Run
 
 1. Clone the repository:
-   
-   git clone https://github.com/your-username/Netflix-Clone.git
 
 2. Open the project folder.
 
